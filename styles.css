@@ -40,9 +40,10 @@ nav{
 
 body{
     position: relative;
-    background-color: lightgray;
+    background-color: white;
     min-height: 300vh;
     z-index: 1;
+    top: 10vh;
     
 }
 
@@ -67,7 +68,9 @@ body{
     overflow: hidden;
 }
 
-
+#welcome-section{
+    margin: 10px 5px 5px 5px;
+}
 
 #img-holder{
     display: flex;
@@ -80,6 +83,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border-radius: 15%;
 }
 
 #about-section{
@@ -91,6 +95,9 @@ body{
     align-items: center;
     text-align: center;
     background-size: 100vw 100vh;
+    border-radius: 15%;
+    margin: 10px 5px 5px 5px;
+    
     
 }
 
@@ -126,7 +133,7 @@ body{
 .service-tile{
     display: flex;
     flex-direction: column;
-    background-color: rgba(155, 120, 100, 0.6);
+    
     width: 300px;
     min-height: 400px;
     border-radius: 10%;
@@ -135,7 +142,26 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+    border: solid black;
+    border-width: 1px;
     
+}
+
+#detox-tile{
+    background-color: rgba(0, 100, 0, 0.3);
+
+}
+
+#massage-tile{
+    background: linear-gradient(rgba(0,100,0,0.3), rgba(255, 0, 0, 0.3));
+
+
+}
+
+#candle-tile{
+    background-color: rgba(255, 0, 0, 0.3);
+
+
 }
 .tile-title{
     font-size: 1.5rem;
@@ -147,8 +173,9 @@ body{
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
-    margin-top: 20px;
-
+    margin-bottom: 15px;
+    border: solid black;
+    border-width: 1px;
     
 }
 
